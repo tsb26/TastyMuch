@@ -1,0 +1,51 @@
+header{
+    height:auto;
+    
+}
+nav{
+    background-color: #cb9f72;
+}
+img{
+    position:relative;
+    width:96%;
+    margin:2% 2%;
+    
+}
+.intro{
+    background-color: #faedcd;
+    padding:2rem;
+}
+.intro div{
+    padding: 0.4rem 2% ;
+    display:flex;
+}
+.mains{
+    background-color: #faedcd;
+    padding:1rem 1rem 7rem 4rem;
+    
+}
+.mains h3{
+    padding:1rem 0rem;
+}
+.mains div{
+    padding:0rem 0rem 3rem 0rem;
+}
+.ingre div{
+    padding:0.4rem;
+}
+.ingre li{
+    padding:1rem 1rem;
+}
+ol{
+    padding:0rem 1rem;
+}
+
+@media screen and (min-width:768px){
+    .intro{
+        display:grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:2rem;
+    
+    }
+    
+}
